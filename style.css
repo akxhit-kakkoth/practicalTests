@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: oklch(0% 0 0);
+    color: white;
+    font-family: "TT Fors",ui-sans-serif,system-ui,sans-serif;
+}
+
+header{
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(15, 15, 15);
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.nav-link{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+.nav-but{
+    background-color: oklch(49.4596% .248135 263.583);
+    border-radius: 5px;
+    padding: 10px 15px ;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero */
+.hero-section{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+}
+.left-content{
+    width: 50%;
+
+}
+.caption{
+    color: oklch(49.4596% .248135 263.583);
+}
+.left-content h1{
+    font-size: 95px;
+}
+.subhead{
+    font-size: 21px;
+    padding-bottom: 40px;
+}
+.but-sale{
+    color: white;
+    background-color: oklch(49.4596% .248135 263.583);
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.but-studies{
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
