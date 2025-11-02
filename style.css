@@ -38,6 +38,9 @@ header{
 .hero-section{
     padding-left: 40px;
     padding-right: 40px;
+}
+.hero-content{
+    
     display: flex;
 }
 .left-content{
@@ -67,4 +70,22 @@ header{
     padding: 10px 30px;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.para1{
+    font-size: 20px;
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+}
+.boxses{
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 10px;
+}
+.boxses div{
+    
+    background-color: aliceblue;
+    height: 20%;
+    width: 20%;
 }
